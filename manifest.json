@@ -35,7 +35,15 @@
     "preserved_historical_tasks": 5,
     "repository": "leewensong/QTMS_Meshmodels",
     "model_storage": "git-lfs",
-    "schema_version": 1
+    "schema_version": 1,
+    "last_multi_key_sync": {
+      "checked_at": "2026-10-17T05:20:28+08:00",
+      "keys_checked": 4,
+      "available_cloud_tasks": 0,
+      "new_models_added": 0,
+      "historical_coverage": "unverified",
+      "report": "sync_reports/latest.json"
+    }
   },
   "tasks": [
     {

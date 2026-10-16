@@ -56,6 +56,12 @@ git push origin main
 
 新增模型会按 `.gitattributes` 中的规则交给 Git LFS 管理。
 
+## 多 KEY 同步状态
+
+本次已检查 `MeshyKEY001.txt`、`FXGMeshyKEY_03.txt`、`FXGMeshyKEY_04.txt` 和 `MeshyKEY.txt` 四个 KEY（仓库不包含 KEY 值）。它们均能认证，但当前模型列表全部为空，历史用量接口均返回 HTTP 403。因此本次新增 **0** 个模型，仍保留完整的 **40 个模型和 40 张预览图**；这不代表已恢复其它 KEY 的全部历史模型。
+
+详情见 [四 KEY 同步报告](MULTI_KEY_SYNC.md) 和 [机器可读报告](sync_reports/latest.json)。
+
 ## 安全与范围
 
 - 仅归档已有模型、预览图和脱敏任务清单，没有提交新的 Meshy 生成任务。
