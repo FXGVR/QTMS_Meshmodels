@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12ad9-8135-7246-bd00-24c20f5ae8a9",
+  "label": "curtain_double_layer_wide_top_v3",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T20:04:20+0800",
+  "finished_at": "2026-10-11T20:09:20+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "curtain_double_layer_wide_top_v3__01a12ad9-8135-7246-bd00-24c20f5ae8a9",
+  "model_files": [
+    {
+      "path": "curtain_double_layer_wide_top_v3__01a12ad9-8135-7246-bd00-24c20f5ae8a9/model.glb",
+      "format": "glb",
+      "bytes": 10061692,
+      "sha256": "a16263091ccbd0eab0c5b9326ad5f92f5f67230e3cc4461258c378f253369215",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 10061692,
+        "meshes": 1,
+        "triangles": 28238,
+        "vertices": 52256,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "curtain_double_layer_wide_top_v3__01a12ad9-8135-7246-bd00-24c20f5ae8a9/preview.png",
+      "bytes": 112260,
+      "sha256": "8f658afb6b25c5ea8b4819bd38baa8e682a15c4faed9d9b59cff74fb40e4f65a",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

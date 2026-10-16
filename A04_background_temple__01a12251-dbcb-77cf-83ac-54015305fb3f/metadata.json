@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12251-dbcb-77cf-83ac-54015305fb3f",
+  "label": "A04_background_temple",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T04:19:12+0800",
+  "finished_at": "2026-10-10T04:23:34+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "A04_background_temple__01a12251-dbcb-77cf-83ac-54015305fb3f",
+  "model_files": [
+    {
+      "path": "A04_background_temple__01a12251-dbcb-77cf-83ac-54015305fb3f/model.glb",
+      "format": "glb",
+      "bytes": 14927172,
+      "sha256": "4b4d75af1a2fd50f50be426013cbb5fd07fb965cf0ef445947b9b7580afcdeb1",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 14927172,
+        "meshes": 1,
+        "triangles": 48407,
+        "vertices": 81085,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "A04_background_temple__01a12251-dbcb-77cf-83ac-54015305fb3f/preview.png",
+      "bytes": 214274,
+      "sha256": "bd452c1fdc9a1598481afb334a6308f21a852e08b7dbae8712eadcd26341c3c5",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

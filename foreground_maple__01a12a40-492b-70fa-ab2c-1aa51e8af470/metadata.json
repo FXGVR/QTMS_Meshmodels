@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12a40-492b-70fa-ab2c-1aa51e8af470",
+  "label": "foreground_maple",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T17:17:28+0800",
+  "finished_at": "2026-10-11T17:29:35+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "foreground_maple__01a12a40-492b-70fa-ab2c-1aa51e8af470",
+  "model_files": [
+    {
+      "path": "foreground_maple__01a12a40-492b-70fa-ab2c-1aa51e8af470/model.glb",
+      "format": "glb",
+      "bytes": 17018264,
+      "sha256": "fcc04b5bf7f23ac8f675ec7c1c033f696c13637f33177536cfaea09dcdd8c82e",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 17018264,
+        "meshes": 1,
+        "triangles": 31149,
+        "vertices": 67081,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "foreground_maple__01a12a40-492b-70fa-ab2c-1aa51e8af470/preview.png",
+      "bytes": 140511,
+      "sha256": "37dbbd50cd66f3daff20b05c4df80347f13d5b9b300daf932e094fe2a17c67b5",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

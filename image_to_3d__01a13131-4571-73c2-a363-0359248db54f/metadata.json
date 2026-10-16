@@ -1,0 +1,49 @@
+{
+  "task_id": "01a13131-4571-73c2-a363-0359248db54f",
+  "label": "image_to_3d",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-13T01:37:57+08:00",
+  "finished_at": "2026-10-13T01:41:31+08:00",
+  "consumed_credits": 30,
+  "ai_model": null,
+  "directory": "image_to_3d__01a13131-4571-73c2-a363-0359248db54f",
+  "model_files": [
+    {
+      "path": "image_to_3d__01a13131-4571-73c2-a363-0359248db54f/model.glb",
+      "format": "glb",
+      "bytes": 21053956,
+      "sha256": "c91268cc66cb2e2ff88d0a94ae32e79f975e4369c82548bb479212d79cf6004e",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 21053956,
+        "meshes": 1,
+        "triangles": 155553,
+        "vertices": 195182,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "image_to_3d__01a13131-4571-73c2-a363-0359248db54f/preview.png",
+      "bytes": 160739,
+      "sha256": "9aca0d2b92f027cb493f240db54fda1174ade6079f5f8a390b8107682d28c8d7",
+      "origin": "download",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T05:01:18+08:00",
+  "preserved_from_previous_archive": true
+}

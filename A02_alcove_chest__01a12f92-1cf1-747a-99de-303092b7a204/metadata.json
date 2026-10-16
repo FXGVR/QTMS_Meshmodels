@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12f92-1cf1-747a-99de-303092b7a204",
+  "label": "A02_alcove_chest",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-12T18:04:27+0800",
+  "finished_at": "2026-10-12T18:06:49+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "A02_alcove_chest__01a12f92-1cf1-747a-99de-303092b7a204",
+  "model_files": [
+    {
+      "path": "A02_alcove_chest__01a12f92-1cf1-747a-99de-303092b7a204/model.glb",
+      "format": "glb",
+      "bytes": 8846296,
+      "sha256": "2f3960c4d5b58af5af0f1c96b1dcd3b0029c9c19638e69635cdc9b17749e1e47",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 8846296,
+        "meshes": 1,
+        "triangles": 37690,
+        "vertices": 46204,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "A02_alcove_chest__01a12f92-1cf1-747a-99de-303092b7a204/preview.png",
+      "bytes": 223587,
+      "sha256": "ed1214667da822b6f3858831a0ded9f3062c25a2594b0937bb83f5d2a62d8e6a",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

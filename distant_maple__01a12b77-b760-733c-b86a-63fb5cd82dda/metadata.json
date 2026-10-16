@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12b77-b760-733c-b86a-63fb5cd82dda",
+  "label": "distant_maple",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T22:57:09+0800",
+  "finished_at": "2026-10-11T23:01:09+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "distant_maple__01a12b77-b760-733c-b86a-63fb5cd82dda",
+  "model_files": [
+    {
+      "path": "distant_maple__01a12b77-b760-733c-b86a-63fb5cd82dda/model.glb",
+      "format": "glb",
+      "bytes": 16694240,
+      "sha256": "5580c55cd54f224f16990483cb81fb14b11b15d86258de43285bfca04e8084f0",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 16694240,
+        "meshes": 1,
+        "triangles": 39210,
+        "vertices": 83246,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "distant_maple__01a12b77-b760-733c-b86a-63fb5cd82dda/preview.png",
+      "bytes": 111619,
+      "sha256": "de89b1d3ba951454c48affc0c8a2c8f535387eb175ef5f1f160ccdf6691a997b",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

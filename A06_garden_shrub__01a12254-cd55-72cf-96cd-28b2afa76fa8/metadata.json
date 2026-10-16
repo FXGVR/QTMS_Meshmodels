@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12254-cd55-72cf-96cd-28b2afa76fa8",
+  "label": "A06_garden_shrub",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T04:22:25+0800",
+  "finished_at": "2026-10-10T04:29:09+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "A06_garden_shrub__01a12254-cd55-72cf-96cd-28b2afa76fa8",
+  "model_files": [
+    {
+      "path": "A06_garden_shrub__01a12254-cd55-72cf-96cd-28b2afa76fa8/model.glb",
+      "format": "glb",
+      "bytes": 18231680,
+      "sha256": "d010a7e4d6b5168640a15c3901cb5965d15fe93b33aaf98d59bd2ce120489402",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 18231680,
+        "meshes": 1,
+        "triangles": 31794,
+        "vertices": 76690,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "A06_garden_shrub__01a12254-cd55-72cf-96cd-28b2afa76fa8/preview.png",
+      "bytes": 256263,
+      "sha256": "f215ebea116a4d08c1d3b85f39f77c91114cfbebb9fe6475dd19732b345ccf9a",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

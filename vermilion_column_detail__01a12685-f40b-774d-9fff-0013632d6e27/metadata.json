@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12685-f40b-774d-9fff-0013632d6e27",
+  "label": "vermilion_column_detail",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T23:54:35+0800",
+  "finished_at": "2026-10-10T23:56:31+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "vermilion_column_detail__01a12685-f40b-774d-9fff-0013632d6e27",
+  "model_files": [
+    {
+      "path": "vermilion_column_detail__01a12685-f40b-774d-9fff-0013632d6e27/model.glb",
+      "format": "glb",
+      "bytes": 14206960,
+      "sha256": "94bcf4f4b0fdc902d8650856f852e0898bfacacba0663e87071a8ec26b673cbc",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 14206960,
+        "meshes": 1,
+        "triangles": 46823,
+        "vertices": 49902,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "vermilion_column_detail__01a12685-f40b-774d-9fff-0013632d6e27/preview.png",
+      "bytes": 88127,
+      "sha256": "95feafa552055c29d031bb8da6f1b17c57195728f8e8f0b681ee3ef39426da38",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

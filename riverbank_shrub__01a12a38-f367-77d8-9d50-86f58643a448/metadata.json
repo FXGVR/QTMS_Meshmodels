@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12a38-f367-77d8-9d50-86f58643a448",
+  "label": "riverbank_shrub",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T17:09:25+0800",
+  "finished_at": "2026-10-11T17:16:50+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "riverbank_shrub__01a12a38-f367-77d8-9d50-86f58643a448",
+  "model_files": [
+    {
+      "path": "riverbank_shrub__01a12a38-f367-77d8-9d50-86f58643a448/model.glb",
+      "format": "glb",
+      "bytes": 16748236,
+      "sha256": "02d0aa01f961a8872399819f6ddbd0b0e69ba2effae61be66f91ddb277f9152c",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 16748236,
+        "meshes": 1,
+        "triangles": 42161,
+        "vertices": 90284,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "riverbank_shrub__01a12a38-f367-77d8-9d50-86f58643a448/preview.png",
+      "bytes": 147350,
+      "sha256": "a56a798b7f15fc67ab3cf49d4d119236546c2ec2884b1e17878c8bb55c21faaa",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

@@ -1,0 +1,11 @@
+.env
+.env.*
+*.key
+*token*
+MeshyKEY*.txt
+**/__pycache__/
+*.py[cod]
+.local-backups/
+*.part
+.DS_Store
+Thumbs.db

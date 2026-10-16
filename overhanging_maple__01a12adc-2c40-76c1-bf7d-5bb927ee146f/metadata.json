@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12adc-2c40-76c1-bf7d-5bb927ee146f",
+  "label": "overhanging_maple",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T20:07:15+0800",
+  "finished_at": "2026-10-11T20:13:18+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "overhanging_maple__01a12adc-2c40-76c1-bf7d-5bb927ee146f",
+  "model_files": [
+    {
+      "path": "overhanging_maple__01a12adc-2c40-76c1-bf7d-5bb927ee146f/model.glb",
+      "format": "glb",
+      "bytes": 18052892,
+      "sha256": "17b65cf6dd3fcb57ad33d03dd1c1398e4e582dd67cb54c2f44dc88a7bc27229a",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 18052892,
+        "meshes": 1,
+        "triangles": 35596,
+        "vertices": 79045,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "overhanging_maple__01a12adc-2c40-76c1-bf7d-5bb927ee146f/preview.png",
+      "bytes": 128356,
+      "sha256": "314abb938666ec7c37ee615c0db1f0a3488ae8beda9164b6c263d76a614387d2",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

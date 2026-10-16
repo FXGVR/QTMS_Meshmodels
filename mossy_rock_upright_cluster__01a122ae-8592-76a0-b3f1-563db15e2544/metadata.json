@@ -1,0 +1,48 @@
+{
+  "task_id": "01a122ae-8592-76a0-b3f1-563db15e2544",
+  "label": "mossy_rock_upright_cluster",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T06:00:25+0800",
+  "finished_at": "2026-10-10T06:04:03+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "mossy_rock_upright_cluster__01a122ae-8592-76a0-b3f1-563db15e2544",
+  "model_files": [
+    {
+      "path": "mossy_rock_upright_cluster__01a122ae-8592-76a0-b3f1-563db15e2544/model.glb",
+      "format": "glb",
+      "bytes": 17619164,
+      "sha256": "7b26747a0dc42175cf97d2b2cd2d2b4d25c7a7981fdc9d4eb62084a47130a68a",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 17619164,
+        "meshes": 1,
+        "triangles": 50581,
+        "vertices": 91623,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "mossy_rock_upright_cluster__01a122ae-8592-76a0-b3f1-563db15e2544/preview.png",
+      "bytes": 173727,
+      "sha256": "057ab6d8135c8e9c149c2800a814d25ec985cb94ab59b4c79d6f4c9f1d1ab5dc",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

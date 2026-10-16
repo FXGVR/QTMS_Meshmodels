@@ -1,0 +1,48 @@
+{
+  "task_id": "01a121de-5cfa-74fd-907b-5cda6b7df805",
+  "label": "A05_garden_tree_v02",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T02:13:03+0800",
+  "finished_at": "2026-10-10T02:20:37+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "A05_garden_tree_v02__01a121de-5cfa-74fd-907b-5cda6b7df805",
+  "model_files": [
+    {
+      "path": "A05_garden_tree_v02__01a121de-5cfa-74fd-907b-5cda6b7df805/model.glb",
+      "format": "glb",
+      "bytes": 18888800,
+      "sha256": "b6fc8f083f43cbbaff735ac214ba147afaa9bd7f23972cc0c124c0e5f82f2dda",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 18888800,
+        "meshes": 1,
+        "triangles": 31241,
+        "vertices": 73502,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "A05_garden_tree_v02__01a121de-5cfa-74fd-907b-5cda6b7df805/preview.png",
+      "bytes": 273082,
+      "sha256": "a0e397fccb33283cee74b98b3d5fc985dd21a68b9072f88414c634f7a1955381",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

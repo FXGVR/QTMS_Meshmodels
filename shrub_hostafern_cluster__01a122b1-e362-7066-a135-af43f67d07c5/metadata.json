@@ -1,0 +1,48 @@
+{
+  "task_id": "01a122b1-e362-7066-a135-af43f67d07c5",
+  "label": "shrub_hostafern_cluster",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T06:04:06+0800",
+  "finished_at": "2026-10-10T06:09:26+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "shrub_hostafern_cluster__01a122b1-e362-7066-a135-af43f67d07c5",
+  "model_files": [
+    {
+      "path": "shrub_hostafern_cluster__01a122b1-e362-7066-a135-af43f67d07c5/model.glb",
+      "format": "glb",
+      "bytes": 16942084,
+      "sha256": "b8e8c87fd1c33efa54de0b79a0934530216e6cfdd09a0694861321ef2107f728",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 16942084,
+        "meshes": 1,
+        "triangles": 34716,
+        "vertices": 74937,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "shrub_hostafern_cluster__01a122b1-e362-7066-a135-af43f67d07c5/preview.png",
+      "bytes": 280418,
+      "sha256": "5ee2b6899551d3c3c491bee28742b042a45a74639453836805aeb4779800c2f5",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

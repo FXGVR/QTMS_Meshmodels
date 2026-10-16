@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12b82-a5db-7791-a950-37db3547e39c",
+  "label": "courtyard_right_maple",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T23:09:05+0800",
+  "finished_at": "2026-10-11T23:14:11+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "courtyard_right_maple__01a12b82-a5db-7791-a950-37db3547e39c",
+  "model_files": [
+    {
+      "path": "courtyard_right_maple__01a12b82-a5db-7791-a950-37db3547e39c/model.glb",
+      "format": "glb",
+      "bytes": 17316048,
+      "sha256": "b09e489d166dcb92d97e7c0f83b43dcd0d318780b75b46c77a1a7791c2f08a3e",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 17316048,
+        "meshes": 1,
+        "triangles": 31361,
+        "vertices": 71271,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "courtyard_right_maple__01a12b82-a5db-7791-a950-37db3547e39c/preview.png",
+      "bytes": 120882,
+      "sha256": "a6ce90c787df82c0ecd7259899bd40d3b7630d7f7f4c00ff50e1e1462c8c3b1f",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12c5d-0059-7532-9123-d1e072791351",
+  "label": "meshy_input_curtain_half",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-12T03:07:36+0800",
+  "finished_at": "2026-10-12T03:10:18+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "meshy_input_curtain_half__01a12c5d-0059-7532-9123-d1e072791351",
+  "model_files": [
+    {
+      "path": "meshy_input_curtain_half__01a12c5d-0059-7532-9123-d1e072791351/model.glb",
+      "format": "glb",
+      "bytes": 12071536,
+      "sha256": "ca47c046e13295edfb17db155d34b281ff1a2f23013c29ba02212b695567c0ce",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 12071536,
+        "meshes": 1,
+        "triangles": 48533,
+        "vertices": 65433,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "meshy_input_curtain_half__01a12c5d-0059-7532-9123-d1e072791351/preview.png",
+      "bytes": 103428,
+      "sha256": "e3c6ebbe2a0a839f6ca41decac9470efb472c6a6f29049f9ea4ed455862d973c",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

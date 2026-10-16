@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12272-5a16-7654-900b-e1e49db43cd0",
+  "label": "A02_eave_module_multiview",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T04:54:42+0800",
+  "finished_at": "2026-10-10T04:57:26+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "A02_eave_module_multiview__01a12272-5a16-7654-900b-e1e49db43cd0",
+  "model_files": [
+    {
+      "path": "A02_eave_module_multiview__01a12272-5a16-7654-900b-e1e49db43cd0/model.glb",
+      "format": "glb",
+      "bytes": 14300424,
+      "sha256": "b3b5b197895cdc2a1a7d820def2fa129140aa161289d8f1f5399828fadd5407e",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 14300424,
+        "meshes": 1,
+        "triangles": 48872,
+        "vertices": 66032,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "A02_eave_module_multiview__01a12272-5a16-7654-900b-e1e49db43cd0/preview.png",
+      "bytes": 210582,
+      "sha256": "d333cc16daf5f3309c5cd8d85939b231ca45401d040213c9c82b5567f921f7e2",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

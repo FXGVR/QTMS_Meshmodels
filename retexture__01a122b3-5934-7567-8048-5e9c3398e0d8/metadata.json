@@ -1,0 +1,49 @@
+{
+  "task_id": "01a122b3-5934-7567-8048-5e9c3398e0d8",
+  "label": "retexture",
+  "task_type": "retexture",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T06:05:43+08:00",
+  "finished_at": "2026-10-10T06:06:26+08:00",
+  "consumed_credits": 10,
+  "ai_model": null,
+  "directory": "retexture__01a122b3-5934-7567-8048-5e9c3398e0d8",
+  "model_files": [
+    {
+      "path": "retexture__01a122b3-5934-7567-8048-5e9c3398e0d8/model.glb",
+      "format": "glb",
+      "bytes": 19640224,
+      "sha256": "5cf0b1dba91cd1337bf49986906cdbc43ea6e3b779736ed9cee105e14c813d70",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 19640224,
+        "meshes": 1,
+        "triangles": 62896,
+        "vertices": 34247,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "retexture__01a122b3-5934-7567-8048-5e9c3398e0d8/preview.png",
+      "bytes": 28776,
+      "sha256": "9368153930e48086fac5fc4ae027f4953a702744d8e4fed9d4929ecf5cf45aad",
+      "origin": "download",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T05:01:18+08:00",
+  "preserved_from_previous_archive": true
+}

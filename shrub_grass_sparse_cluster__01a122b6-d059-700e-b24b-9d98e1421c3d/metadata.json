@@ -1,0 +1,48 @@
+{
+  "task_id": "01a122b6-d059-700e-b24b-9d98e1421c3d",
+  "label": "shrub_grass_sparse_cluster",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T06:09:28+0800",
+  "finished_at": "2026-10-10T06:14:50+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "shrub_grass_sparse_cluster__01a122b6-d059-700e-b24b-9d98e1421c3d",
+  "model_files": [
+    {
+      "path": "shrub_grass_sparse_cluster__01a122b6-d059-700e-b24b-9d98e1421c3d/model.glb",
+      "format": "glb",
+      "bytes": 16716080,
+      "sha256": "3790304b2aee1521177c03cfa85609602a285fb3579b2a17392f4bcb5e36a4db",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 16716080,
+        "meshes": 1,
+        "triangles": 35226,
+        "vertices": 74296,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "shrub_grass_sparse_cluster__01a122b6-d059-700e-b24b-9d98e1421c3d/preview.png",
+      "bytes": 281473,
+      "sha256": "09b839420eba9725098648e35d2481594ade397feea3e2023b06a1698d46f26e",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12f90-22b9-7548-b1d5-860fd11e8b26",
+  "label": "A01_urn_pedestal",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-12T18:02:17+0800",
+  "finished_at": "2026-10-12T18:04:20+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "A01_urn_pedestal__01a12f90-22b9-7548-b1d5-860fd11e8b26",
+  "model_files": [
+    {
+      "path": "A01_urn_pedestal__01a12f90-22b9-7548-b1d5-860fd11e8b26/model.glb",
+      "format": "glb",
+      "bytes": 10787096,
+      "sha256": "ffb51695f6bc5528a6a2bdae7e9ead4d87105c2572d2458f1cedcd8b4150402d",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 10787096,
+        "meshes": 1,
+        "triangles": 50709,
+        "vertices": 39218,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "A01_urn_pedestal__01a12f90-22b9-7548-b1d5-860fd11e8b26/preview.png",
+      "bytes": 82601,
+      "sha256": "bb614cdf9e51b4861928ef4580a943a8caf43439d96e55741d593d3acd7339ef",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

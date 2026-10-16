@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12ae1-bf89-74a3-b5bc-abeb0aa08254",
+  "label": "creek_maple",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T20:13:20+0800",
+  "finished_at": "2026-10-11T20:19:23+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "creek_maple__01a12ae1-bf89-74a3-b5bc-abeb0aa08254",
+  "model_files": [
+    {
+      "path": "creek_maple__01a12ae1-bf89-74a3-b5bc-abeb0aa08254/model.glb",
+      "format": "glb",
+      "bytes": 16204840,
+      "sha256": "d42ec786e15f2243d0cbd4863f8633991a0c12f3c566a62e51ae10954fce7c19",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 16204840,
+        "meshes": 1,
+        "triangles": 24247,
+        "vertices": 55390,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "creek_maple__01a12ae1-bf89-74a3-b5bc-abeb0aa08254/preview.png",
+      "bytes": 150153,
+      "sha256": "99fda9b2c197f15ddac7911ddc1524789ce041bba664c01cb122728721ddcc97",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

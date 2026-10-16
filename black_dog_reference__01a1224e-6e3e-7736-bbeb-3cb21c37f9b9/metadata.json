@@ -1,0 +1,48 @@
+{
+  "task_id": "01a1224e-6e3e-7736-bbeb-3cb21c37f9b9",
+  "label": "black_dog_reference",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T04:15:28+0800",
+  "finished_at": "2026-10-10T04:18:12+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "black_dog_reference__01a1224e-6e3e-7736-bbeb-3cb21c37f9b9",
+  "model_files": [
+    {
+      "path": "black_dog_reference__01a1224e-6e3e-7736-bbeb-3cb21c37f9b9/model.glb",
+      "format": "glb",
+      "bytes": 10987096,
+      "sha256": "96daecfcb088913c8e0ced5687d796857265fcb957ed25588262c162aaebf7e6",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 10987096,
+        "meshes": 1,
+        "triangles": 52100,
+        "vertices": 54464,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "black_dog_reference__01a1224e-6e3e-7736-bbeb-3cb21c37f9b9/preview.png",
+      "bytes": 91598,
+      "sha256": "72c89803f5c0f4188f9d9d1c067dc26f8f1a61131a9067c037c1851bb070f4e7",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

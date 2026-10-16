@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12255-1227-735b-821d-67444e4109f9",
+  "label": "A08_bank_boulder",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-10T04:22:43+0800",
+  "finished_at": "2026-10-10T04:25:02+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "A08_bank_boulder__01a12255-1227-735b-821d-67444e4109f9",
+  "model_files": [
+    {
+      "path": "A08_bank_boulder__01a12255-1227-735b-821d-67444e4109f9/model.glb",
+      "format": "glb",
+      "bytes": 13286764,
+      "sha256": "8415ece0a77a85458d3a3666a0d457704989701b347f5a256a4105546e8d7151",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 13286764,
+        "meshes": 1,
+        "triangles": 52051,
+        "vertices": 42968,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "A08_bank_boulder__01a12255-1227-735b-821d-67444e4109f9/preview.png",
+      "bytes": 114627,
+      "sha256": "87b7135156ad840625f84bfd2f6dea4361a268e20ddfdd72bf38ebe41ac53e0a",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

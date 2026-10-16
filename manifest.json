@@ -1,0 +1,1983 @@
+{
+  "summary": {
+    "archived_at": "2026-10-17T05:01:18+08:00",
+    "cloud_tasks": 0,
+    "local_tasks": 36,
+    "unique_tasks": 41,
+    "status_counts": {
+      "SUCCEEDED": 40,
+      "FAILED": 1
+    },
+    "models_archived": 40,
+    "model_files": 40,
+    "preview_files": 40,
+    "local_backup_only_models": 40,
+    "artifact_bytes": 620190053,
+    "endpoint_counts": {
+      "/v2/text-to-3d": 0,
+      "/v1/retexture": 0,
+      "/v1/multi-image-to-3d": 0,
+      "/v1/image-to-3d": 0,
+      "/v1/resize": 0,
+      "/v1/remesh": 0,
+      "/v1/uv-unwrap": 0,
+      "/v1/convert": 0,
+      "/v1/animations": 0,
+      "/v1/print/multi-color": 0,
+      "/v1/print/split": 0,
+      "/v1/rigging": 0,
+      "/v1/print/repair": 0
+    },
+    "enumeration_errors": [],
+    "artifact_errors": 0,
+    "external_glb_resources": 0,
+    "generation_requests": 0,
+    "preserved_historical_tasks": 5,
+    "repository": "leewensong/QTMS_Meshmodels",
+    "model_storage": "git-lfs",
+    "schema_version": 1
+  },
+  "tasks": [
+    {
+      "task_id": "01a1211a-11ae-7506-abf0-bd42ccaea0bd",
+      "label": "tree",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-09T22:38:39+0800",
+      "finished_at": "2026-10-09T22:44:26+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "tree__01a1211a-11ae-7506-abf0-bd42ccaea0bd",
+      "model_files": [
+        {
+          "path": "tree__01a1211a-11ae-7506-abf0-bd42ccaea0bd/model.glb",
+          "format": "glb",
+          "bytes": 7821280,
+          "sha256": "81837fa1c26c2929ae21700019f3d9e73b487adefff6082af224e377f3c1163d",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 7821280,
+            "meshes": 1,
+            "triangles": 31569,
+            "vertices": 69913,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "tree__01a1211a-11ae-7506-abf0-bd42ccaea0bd/preview.png",
+          "bytes": 266340,
+          "sha256": "7177859d9d6827588a5dce055e276641b756981ed6b1e87307f1c7b921639dcd",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a121ce-e7b1-75de-a9e1-8de6ec7a1a02",
+      "label": "cabinet",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T01:56:10+0800",
+      "finished_at": "2026-10-10T01:58:11+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "cabinet__01a121ce-e7b1-75de-a9e1-8de6ec7a1a02",
+      "model_files": [
+        {
+          "path": "cabinet__01a121ce-e7b1-75de-a9e1-8de6ec7a1a02/model.glb",
+          "format": "glb",
+          "bytes": 7387980,
+          "sha256": "628ac32a17e7f944c38a1b0f7e86a790e4fa2c65205226e882099941905dfc23",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 7387980,
+            "meshes": 1,
+            "triangles": 46227,
+            "vertices": 46164,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "cabinet__01a121ce-e7b1-75de-a9e1-8de6ec7a1a02/preview.png",
+          "bytes": 178679,
+          "sha256": "1cb86919fa76c2e8358a383cd093dd8ffdcea1f7e24dc37b563597b0f8b739b2",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a121ce-e807-705f-a5f7-de6eba207f58",
+      "label": "tea_tables",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T01:56:10+0800",
+      "finished_at": "2026-10-10T01:58:54+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "tea_tables__01a121ce-e807-705f-a5f7-de6eba207f58",
+      "model_files": [
+        {
+          "path": "tea_tables__01a121ce-e807-705f-a5f7-de6eba207f58/model.glb",
+          "format": "glb",
+          "bytes": 14969344,
+          "sha256": "892964ba8feabf232847dc190e2ccd7384e6f2b4f1a632ea83a0df9b4fe02369",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 14969344,
+            "meshes": 1,
+            "triangles": 48292,
+            "vertices": 63605,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "tea_tables__01a121ce-e807-705f-a5f7-de6eba207f58/preview.png",
+          "bytes": 180850,
+          "sha256": "ffc6e75c2fcfd8a5c55afc9adc46a0737ed830c59f9bf339b33dfcbc72cc8b25",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a121dd-2024-7439-899d-50f9891c364d",
+      "label": "A01_column_base",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T02:11:42+0800",
+      "finished_at": "2026-10-10T02:13:22+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A01_column_base__01a121dd-2024-7439-899d-50f9891c364d",
+      "model_files": [
+        {
+          "path": "A01_column_base__01a121dd-2024-7439-899d-50f9891c364d/model.glb",
+          "format": "glb",
+          "bytes": 10472988,
+          "sha256": "9ef5672b06d5898f59f8312002de34df8d313304382e9d84397c9201882ddb3f",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 10472988,
+            "meshes": 1,
+            "triangles": 49931,
+            "vertices": 43053,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A01_column_base__01a121dd-2024-7439-899d-50f9891c364d/preview.png",
+          "bytes": 45581,
+          "sha256": "684b8138563ed0cf331954ce1c852f40af08f62ca8b45c3b7c15cd6298485d7b",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a121de-5cfa-74fd-907b-5cda6b7df805",
+      "label": "A05_garden_tree_v02",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T02:13:03+0800",
+      "finished_at": "2026-10-10T02:20:37+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A05_garden_tree_v02__01a121de-5cfa-74fd-907b-5cda6b7df805",
+      "model_files": [
+        {
+          "path": "A05_garden_tree_v02__01a121de-5cfa-74fd-907b-5cda6b7df805/model.glb",
+          "format": "glb",
+          "bytes": 18888800,
+          "sha256": "b6fc8f083f43cbbaff735ac214ba147afaa9bd7f23972cc0c124c0e5f82f2dda",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 18888800,
+            "meshes": 1,
+            "triangles": 31241,
+            "vertices": 73502,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A05_garden_tree_v02__01a121de-5cfa-74fd-907b-5cda6b7df805/preview.png",
+          "bytes": 273082,
+          "sha256": "a0e397fccb33283cee74b98b3d5fc985dd21a68b9072f88414c634f7a1955381",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a121de-5d00-7134-9143-11a647915d87",
+      "label": "A07_hero_boulder",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T02:13:03+0800",
+      "finished_at": "2026-10-10T02:15:05+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A07_hero_boulder__01a121de-5d00-7134-9143-11a647915d87",
+      "model_files": [
+        {
+          "path": "A07_hero_boulder__01a121de-5d00-7134-9143-11a647915d87/model.glb",
+          "format": "glb",
+          "bytes": 13730856,
+          "sha256": "1c41008db71b2b64aa530949b2f957e0f2187550316831c150297b976c7cc21f",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 13730856,
+            "meshes": 1,
+            "triangles": 52218,
+            "vertices": 43888,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A07_hero_boulder__01a121de-5d00-7134-9143-11a647915d87/preview.png",
+          "bytes": 242279,
+          "sha256": "f88081029ab04f0da42e4a95b576cbc38497327f49e06d1d4e57d151ed01c211",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a1224e-6e3e-7736-bbeb-3cb21c37f9b9",
+      "label": "black_dog_reference",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:15:28+0800",
+      "finished_at": "2026-10-10T04:18:12+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "black_dog_reference__01a1224e-6e3e-7736-bbeb-3cb21c37f9b9",
+      "model_files": [
+        {
+          "path": "black_dog_reference__01a1224e-6e3e-7736-bbeb-3cb21c37f9b9/model.glb",
+          "format": "glb",
+          "bytes": 10987096,
+          "sha256": "96daecfcb088913c8e0ced5687d796857265fcb957ed25588262c162aaebf7e6",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 10987096,
+            "meshes": 1,
+            "triangles": 52100,
+            "vertices": 54464,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "black_dog_reference__01a1224e-6e3e-7736-bbeb-3cb21c37f9b9/preview.png",
+          "bytes": 91598,
+          "sha256": "72c89803f5c0f4188f9d9d1c067dc26f8f1a61131a9067c037c1851bb070f4e7",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12251-dbbc-75ca-bd35-0deaa6360423",
+      "label": "A02_eave_module",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:19:12+0800",
+      "finished_at": "2026-10-10T04:22:35+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A02_eave_module__01a12251-dbbc-75ca-bd35-0deaa6360423",
+      "model_files": [
+        {
+          "path": "A02_eave_module__01a12251-dbbc-75ca-bd35-0deaa6360423/model.glb",
+          "format": "glb",
+          "bytes": 12997540,
+          "sha256": "49697539bdcabadd5d247e2bc5631a4f5b021e23771e60fb2f836a40e9627e4d",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 12997540,
+            "meshes": 1,
+            "triangles": 49644,
+            "vertices": 70788,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A02_eave_module__01a12251-dbbc-75ca-bd35-0deaa6360423/preview.png",
+          "bytes": 116284,
+          "sha256": "1ecf5b64f1ad9827ed1f1a3904ac37476c8dd28e90177301de48efb68c1feff4",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12251-dbcb-77cf-83ac-54015305fb3f",
+      "label": "A04_background_temple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:19:12+0800",
+      "finished_at": "2026-10-10T04:23:34+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A04_background_temple__01a12251-dbcb-77cf-83ac-54015305fb3f",
+      "model_files": [
+        {
+          "path": "A04_background_temple__01a12251-dbcb-77cf-83ac-54015305fb3f/model.glb",
+          "format": "glb",
+          "bytes": 14927172,
+          "sha256": "4b4d75af1a2fd50f50be426013cbb5fd07fb965cf0ef445947b9b7580afcdeb1",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 14927172,
+            "meshes": 1,
+            "triangles": 48407,
+            "vertices": 81085,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A04_background_temple__01a12251-dbcb-77cf-83ac-54015305fb3f/preview.png",
+          "bytes": 214274,
+          "sha256": "bd452c1fdc9a1598481afb334a6308f21a852e08b7dbae8712eadcd26341c3c5",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12251-dbf6-73c6-8ac4-52bcc67503fe",
+      "label": "A03_wall_window_bay",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:19:12+0800",
+      "finished_at": "2026-10-10T04:22:17+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A03_wall_window_bay__01a12251-dbf6-73c6-8ac4-52bcc67503fe",
+      "model_files": [
+        {
+          "path": "A03_wall_window_bay__01a12251-dbf6-73c6-8ac4-52bcc67503fe/model.glb",
+          "format": "glb",
+          "bytes": 9719912,
+          "sha256": "1c5ab1e14b5e09bc8c0e89513ffd430fb12b52c8109a1af1af1f408609b9477c",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 9719912,
+            "meshes": 1,
+            "triangles": 29983,
+            "vertices": 46629,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A03_wall_window_bay__01a12251-dbf6-73c6-8ac4-52bcc67503fe/preview.png",
+          "bytes": 179762,
+          "sha256": "77737fab51d5845f95749cff3ec02f12c3aea3c6e64ea8161f825564e2bd62dd",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12254-cd55-72cf-96cd-28b2afa76fa8",
+      "label": "A06_garden_shrub",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:22:25+0800",
+      "finished_at": "2026-10-10T04:29:09+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A06_garden_shrub__01a12254-cd55-72cf-96cd-28b2afa76fa8",
+      "model_files": [
+        {
+          "path": "A06_garden_shrub__01a12254-cd55-72cf-96cd-28b2afa76fa8/model.glb",
+          "format": "glb",
+          "bytes": 18231680,
+          "sha256": "d010a7e4d6b5168640a15c3901cb5965d15fe93b33aaf98d59bd2ce120489402",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 18231680,
+            "meshes": 1,
+            "triangles": 31794,
+            "vertices": 76690,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A06_garden_shrub__01a12254-cd55-72cf-96cd-28b2afa76fa8/preview.png",
+          "bytes": 256263,
+          "sha256": "f215ebea116a4d08c1d3b85f39f77c91114cfbebb9fe6475dd19732b345ccf9a",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12255-1227-735b-821d-67444e4109f9",
+      "label": "A08_bank_boulder",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:22:43+0800",
+      "finished_at": "2026-10-10T04:25:02+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A08_bank_boulder__01a12255-1227-735b-821d-67444e4109f9",
+      "model_files": [
+        {
+          "path": "A08_bank_boulder__01a12255-1227-735b-821d-67444e4109f9/model.glb",
+          "format": "glb",
+          "bytes": 13286764,
+          "sha256": "8415ece0a77a85458d3a3666a0d457704989701b347f5a256a4105546e8d7151",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 13286764,
+            "meshes": 1,
+            "triangles": 52051,
+            "vertices": 42968,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A08_bank_boulder__01a12255-1227-735b-821d-67444e4109f9/preview.png",
+          "bytes": 114627,
+          "sha256": "87b7135156ad840625f84bfd2f6dea4361a268e20ddfdd72bf38ebe41ac53e0a",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12255-f577-7151-b13d-73ea39773e0a",
+      "label": "A09_foreground_boulder",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:23:41+0800",
+      "finished_at": "2026-10-10T04:25:40+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A09_foreground_boulder__01a12255-f577-7151-b13d-73ea39773e0a",
+      "model_files": [
+        {
+          "path": "A09_foreground_boulder__01a12255-f577-7151-b13d-73ea39773e0a/model.glb",
+          "format": "glb",
+          "bytes": 13187832,
+          "sha256": "e62065aa0b129bd84d026f8b06acd79ac98abb7d6144b58038d4ea2ef446db82",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 13187832,
+            "meshes": 1,
+            "triangles": 51963,
+            "vertices": 41345,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A09_foreground_boulder__01a12255-f577-7151-b13d-73ea39773e0a/preview.png",
+          "bytes": 110287,
+          "sha256": "51a91e6604cc77fb5a4cbe4490dd931bd2beceb6d957064699352b01efb8ac78",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12262-244c-70d8-8b1d-f8962e9ecedb",
+      "label": "A02_eave_module_v02",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:36:59+0800",
+      "finished_at": "2026-10-10T04:39:02+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A02_eave_module_v02__01a12262-244c-70d8-8b1d-f8962e9ecedb",
+      "model_files": [
+        {
+          "path": "A02_eave_module_v02__01a12262-244c-70d8-8b1d-f8962e9ecedb/model.glb",
+          "format": "glb",
+          "bytes": 12644916,
+          "sha256": "8431cf9dfa12f4d684223f0b263f0a8ab40dff9807d51814a33d8d4ad2354807",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 12644916,
+            "meshes": 1,
+            "triangles": 48747,
+            "vertices": 61328,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A02_eave_module_v02__01a12262-244c-70d8-8b1d-f8962e9ecedb/preview.png",
+          "bytes": 86742,
+          "sha256": "8f9fb921d09a5b6dcc5c0bf1ce83f0ff51a4d63f87c3eeaeb9e7ab6194423cc9",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12272-5a16-7654-900b-e1e49db43cd0",
+      "label": "A02_eave_module_multiview",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:54:42+0800",
+      "finished_at": "2026-10-10T04:57:26+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A02_eave_module_multiview__01a12272-5a16-7654-900b-e1e49db43cd0",
+      "model_files": [
+        {
+          "path": "A02_eave_module_multiview__01a12272-5a16-7654-900b-e1e49db43cd0/model.glb",
+          "format": "glb",
+          "bytes": 14300424,
+          "sha256": "b3b5b197895cdc2a1a7d820def2fa129140aa161289d8f1f5399828fadd5407e",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 14300424,
+            "meshes": 1,
+            "triangles": 48872,
+            "vertices": 66032,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A02_eave_module_multiview__01a12272-5a16-7654-900b-e1e49db43cd0/preview.png",
+          "bytes": 210582,
+          "sha256": "d333cc16daf5f3309c5cd8d85939b231ca45401d040213c9c82b5567f921f7e2",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12275-c47f-76d1-9082-a80c8d30149a",
+      "label": "mossy_rock_low_cluster",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T04:58:26+0800",
+      "finished_at": "2026-10-10T05:55:05+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "mossy_rock_low_cluster__01a12275-c47f-76d1-9082-a80c8d30149a",
+      "model_files": [
+        {
+          "path": "mossy_rock_low_cluster__01a12275-c47f-76d1-9082-a80c8d30149a/model.glb",
+          "format": "glb",
+          "bytes": 17431060,
+          "sha256": "2cf601cb1e9f5a5b3bcdcbcdcb2379896e67ddea28f44da02005f76a444c594b",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 17431060,
+            "meshes": 1,
+            "triangles": 49149,
+            "vertices": 87232,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "mossy_rock_low_cluster__01a12275-c47f-76d1-9082-a80c8d30149a/preview.png",
+          "bytes": 170120,
+          "sha256": "5d24a0687f8613f92ea41e6d1c017d2e334be5b8f79a89adb78a5f2673e81c71",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a1227a-3f54-7119-857e-2a5e34701d2c",
+      "label": "multi_image_to_3d",
+      "task_type": "multi-image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T05:03:26+08:00",
+      "finished_at": "2026-10-10T05:05:28+08:00",
+      "consumed_credits": 30,
+      "ai_model": null,
+      "directory": "multi_image_to_3d__01a1227a-3f54-7119-857e-2a5e34701d2c",
+      "model_files": [
+        {
+          "path": "multi_image_to_3d__01a1227a-3f54-7119-857e-2a5e34701d2c/model.glb",
+          "format": "glb",
+          "bytes": 40579564,
+          "sha256": "f21f63ec753f2e608249dd73ab09e77aa7d6d50781b087654d5e409fa680f921",
+          "origin": "download",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 40579564,
+            "meshes": 1,
+            "triangles": 399824,
+            "vertices": 231875,
+            "materials": 1,
+            "textures": 4,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "multi_image_to_3d__01a1227a-3f54-7119-857e-2a5e34701d2c/preview.png",
+          "bytes": 66465,
+          "sha256": "e82b4619f9baae1d157fda15ae7de3173bc63ea10d09443ec43259ff92b6f9e7",
+          "origin": "download",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T05:01:18+08:00",
+      "preserved_from_previous_archive": true
+    },
+    {
+      "task_id": "01a122ae-8592-76a0-b3f1-563db15e2544",
+      "label": "mossy_rock_upright_cluster",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T06:00:25+0800",
+      "finished_at": "2026-10-10T06:04:03+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "mossy_rock_upright_cluster__01a122ae-8592-76a0-b3f1-563db15e2544",
+      "model_files": [
+        {
+          "path": "mossy_rock_upright_cluster__01a122ae-8592-76a0-b3f1-563db15e2544/model.glb",
+          "format": "glb",
+          "bytes": 17619164,
+          "sha256": "7b26747a0dc42175cf97d2b2cd2d2b4d25c7a7981fdc9d4eb62084a47130a68a",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 17619164,
+            "meshes": 1,
+            "triangles": 50581,
+            "vertices": 91623,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "mossy_rock_upright_cluster__01a122ae-8592-76a0-b3f1-563db15e2544/preview.png",
+          "bytes": 173727,
+          "sha256": "057ab6d8135c8e9c149c2800a814d25ec985cb94ab59b4c79d6f4c9f1d1ab5dc",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a122b1-e362-7066-a135-af43f67d07c5",
+      "label": "shrub_hostafern_cluster",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T06:04:06+0800",
+      "finished_at": "2026-10-10T06:09:26+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "shrub_hostafern_cluster__01a122b1-e362-7066-a135-af43f67d07c5",
+      "model_files": [
+        {
+          "path": "shrub_hostafern_cluster__01a122b1-e362-7066-a135-af43f67d07c5/model.glb",
+          "format": "glb",
+          "bytes": 16942084,
+          "sha256": "b8e8c87fd1c33efa54de0b79a0934530216e6cfdd09a0694861321ef2107f728",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 16942084,
+            "meshes": 1,
+            "triangles": 34716,
+            "vertices": 74937,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "shrub_hostafern_cluster__01a122b1-e362-7066-a135-af43f67d07c5/preview.png",
+          "bytes": 280418,
+          "sha256": "5ee2b6899551d3c3c491bee28742b042a45a74639453836805aeb4779800c2f5",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a122b3-5934-7567-8048-5e9c3398e0d8",
+      "label": "retexture",
+      "task_type": "retexture",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T06:05:43+08:00",
+      "finished_at": "2026-10-10T06:06:26+08:00",
+      "consumed_credits": 10,
+      "ai_model": null,
+      "directory": "retexture__01a122b3-5934-7567-8048-5e9c3398e0d8",
+      "model_files": [
+        {
+          "path": "retexture__01a122b3-5934-7567-8048-5e9c3398e0d8/model.glb",
+          "format": "glb",
+          "bytes": 19640224,
+          "sha256": "5cf0b1dba91cd1337bf49986906cdbc43ea6e3b779736ed9cee105e14c813d70",
+          "origin": "download",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 19640224,
+            "meshes": 1,
+            "triangles": 62896,
+            "vertices": 34247,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "retexture__01a122b3-5934-7567-8048-5e9c3398e0d8/preview.png",
+          "bytes": 28776,
+          "sha256": "9368153930e48086fac5fc4ae027f4953a702744d8e4fed9d4929ecf5cf45aad",
+          "origin": "download",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T05:01:18+08:00",
+      "preserved_from_previous_archive": true
+    },
+    {
+      "task_id": "01a122b6-d059-700e-b24b-9d98e1421c3d",
+      "label": "shrub_grass_sparse_cluster",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T06:09:28+0800",
+      "finished_at": "2026-10-10T06:14:50+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "shrub_grass_sparse_cluster__01a122b6-d059-700e-b24b-9d98e1421c3d",
+      "model_files": [
+        {
+          "path": "shrub_grass_sparse_cluster__01a122b6-d059-700e-b24b-9d98e1421c3d/model.glb",
+          "format": "glb",
+          "bytes": 16716080,
+          "sha256": "3790304b2aee1521177c03cfa85609602a285fb3579b2a17392f4bcb5e36a4db",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 16716080,
+            "meshes": 1,
+            "triangles": 35226,
+            "vertices": 74296,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "shrub_grass_sparse_cluster__01a122b6-d059-700e-b24b-9d98e1421c3d/preview.png",
+          "bytes": 281473,
+          "sha256": "09b839420eba9725098648e35d2481594ade397feea3e2023b06a1698d46f26e",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12685-f40b-774d-9fff-0013632d6e27",
+      "label": "vermilion_column_detail",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-10T23:54:35+0800",
+      "finished_at": "2026-10-10T23:56:31+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "vermilion_column_detail__01a12685-f40b-774d-9fff-0013632d6e27",
+      "model_files": [
+        {
+          "path": "vermilion_column_detail__01a12685-f40b-774d-9fff-0013632d6e27/model.glb",
+          "format": "glb",
+          "bytes": 14206960,
+          "sha256": "94bcf4f4b0fdc902d8650856f852e0898bfacacba0663e87071a8ec26b673cbc",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 14206960,
+            "meshes": 1,
+            "triangles": 46823,
+            "vertices": 49902,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "vermilion_column_detail__01a12685-f40b-774d-9fff-0013632d6e27/preview.png",
+          "bytes": 88127,
+          "sha256": "95feafa552055c29d031bb8da6f1b17c57195728f8e8f0b681ee3ef39426da38",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12a38-f367-77d8-9d50-86f58643a448",
+      "label": "riverbank_shrub",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T17:09:25+0800",
+      "finished_at": "2026-10-11T17:16:50+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "riverbank_shrub__01a12a38-f367-77d8-9d50-86f58643a448",
+      "model_files": [
+        {
+          "path": "riverbank_shrub__01a12a38-f367-77d8-9d50-86f58643a448/model.glb",
+          "format": "glb",
+          "bytes": 16748236,
+          "sha256": "02d0aa01f961a8872399819f6ddbd0b0e69ba2effae61be66f91ddb277f9152c",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 16748236,
+            "meshes": 1,
+            "triangles": 42161,
+            "vertices": 90284,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "riverbank_shrub__01a12a38-f367-77d8-9d50-86f58643a448/preview.png",
+          "bytes": 147350,
+          "sha256": "a56a798b7f15fc67ab3cf49d4d119236546c2ec2884b1e17878c8bb55c21faaa",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12a40-492b-70fa-ab2c-1aa51e8af470",
+      "label": "foreground_maple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T17:17:28+0800",
+      "finished_at": "2026-10-11T17:29:35+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "foreground_maple__01a12a40-492b-70fa-ab2c-1aa51e8af470",
+      "model_files": [
+        {
+          "path": "foreground_maple__01a12a40-492b-70fa-ab2c-1aa51e8af470/model.glb",
+          "format": "glb",
+          "bytes": 17018264,
+          "sha256": "fcc04b5bf7f23ac8f675ec7c1c033f696c13637f33177536cfaea09dcdd8c82e",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 17018264,
+            "meshes": 1,
+            "triangles": 31149,
+            "vertices": 67081,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "foreground_maple__01a12a40-492b-70fa-ab2c-1aa51e8af470/preview.png",
+          "bytes": 140511,
+          "sha256": "37dbbd50cd66f3daff20b05c4df80347f13d5b9b300daf932e094fe2a17c67b5",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12a81-3edb-7410-9a1f-ede9ac0b05f4",
+      "label": "curtain_variant_3",
+      "task_type": "image-to-3d",
+      "status": "FAILED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T18:27:56+0800",
+      "finished_at": null,
+      "consumed_credits": null,
+      "ai_model": "meshy-7.1",
+      "directory": "curtain_variant_3__01a12a81-3edb-7410-9a1f-ede9ac0b05f4",
+      "model_files": [],
+      "preview_files": [],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12a84-62dd-716d-a677-5a3074322409",
+      "label": "assets",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T18:31:22+0800",
+      "finished_at": "2026-10-11T18:33:31+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "assets__01a12a84-62dd-716d-a677-5a3074322409",
+      "model_files": [
+        {
+          "path": "assets__01a12a84-62dd-716d-a677-5a3074322409/model.glb",
+          "format": "glb",
+          "bytes": 8499680,
+          "sha256": "2c7cc3747d6038fb53d1badcd78c4cb058d4f1534de48565be4345376d0547d3",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 8499680,
+            "meshes": 1,
+            "triangles": 28540,
+            "vertices": 42553,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "assets__01a12a84-62dd-716d-a677-5a3074322409/preview.png",
+          "bytes": 88166,
+          "sha256": "992cf0eff6cd262a5012d16b1d3eb7534e39c0021bd2651d14c9bf383c9ab6fb",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12ad9-8135-7246-bd00-24c20f5ae8a9",
+      "label": "curtain_double_layer_wide_top_v3",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T20:04:20+0800",
+      "finished_at": "2026-10-11T20:09:20+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "curtain_double_layer_wide_top_v3__01a12ad9-8135-7246-bd00-24c20f5ae8a9",
+      "model_files": [
+        {
+          "path": "curtain_double_layer_wide_top_v3__01a12ad9-8135-7246-bd00-24c20f5ae8a9/model.glb",
+          "format": "glb",
+          "bytes": 10061692,
+          "sha256": "a16263091ccbd0eab0c5b9326ad5f92f5f67230e3cc4461258c378f253369215",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 10061692,
+            "meshes": 1,
+            "triangles": 28238,
+            "vertices": 52256,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "curtain_double_layer_wide_top_v3__01a12ad9-8135-7246-bd00-24c20f5ae8a9/preview.png",
+          "bytes": 112260,
+          "sha256": "8f658afb6b25c5ea8b4819bd38baa8e682a15c4faed9d9b59cff74fb40e4f65a",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12adc-2c40-76c1-bf7d-5bb927ee146f",
+      "label": "overhanging_maple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T20:07:15+0800",
+      "finished_at": "2026-10-11T20:13:18+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "overhanging_maple__01a12adc-2c40-76c1-bf7d-5bb927ee146f",
+      "model_files": [
+        {
+          "path": "overhanging_maple__01a12adc-2c40-76c1-bf7d-5bb927ee146f/model.glb",
+          "format": "glb",
+          "bytes": 18052892,
+          "sha256": "17b65cf6dd3fcb57ad33d03dd1c1398e4e582dd67cb54c2f44dc88a7bc27229a",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 18052892,
+            "meshes": 1,
+            "triangles": 35596,
+            "vertices": 79045,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "overhanging_maple__01a12adc-2c40-76c1-bf7d-5bb927ee146f/preview.png",
+          "bytes": 128356,
+          "sha256": "314abb938666ec7c37ee615c0db1f0a3488ae8beda9164b6c263d76a614387d2",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12ae1-bf89-74a3-b5bc-abeb0aa08254",
+      "label": "creek_maple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T20:13:20+0800",
+      "finished_at": "2026-10-11T20:19:23+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "creek_maple__01a12ae1-bf89-74a3-b5bc-abeb0aa08254",
+      "model_files": [
+        {
+          "path": "creek_maple__01a12ae1-bf89-74a3-b5bc-abeb0aa08254/model.glb",
+          "format": "glb",
+          "bytes": 16204840,
+          "sha256": "d42ec786e15f2243d0cbd4863f8633991a0c12f3c566a62e51ae10954fce7c19",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 16204840,
+            "meshes": 1,
+            "triangles": 24247,
+            "vertices": 55390,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "creek_maple__01a12ae1-bf89-74a3-b5bc-abeb0aa08254/preview.png",
+          "bytes": 150153,
+          "sha256": "99fda9b2c197f15ddac7911ddc1524789ce041bba664c01cb122728721ddcc97",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12b77-b760-733c-b86a-63fb5cd82dda",
+      "label": "distant_maple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T22:57:09+0800",
+      "finished_at": "2026-10-11T23:01:09+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "distant_maple__01a12b77-b760-733c-b86a-63fb5cd82dda",
+      "model_files": [
+        {
+          "path": "distant_maple__01a12b77-b760-733c-b86a-63fb5cd82dda/model.glb",
+          "format": "glb",
+          "bytes": 16694240,
+          "sha256": "5580c55cd54f224f16990483cb81fb14b11b15d86258de43285bfca04e8084f0",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 16694240,
+            "meshes": 1,
+            "triangles": 39210,
+            "vertices": 83246,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "distant_maple__01a12b77-b760-733c-b86a-63fb5cd82dda/preview.png",
+          "bytes": 111619,
+          "sha256": "de89b1d3ba951454c48affc0c8a2c8f535387eb175ef5f1f160ccdf6691a997b",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12b7c-c3ab-755e-8418-942a9c94a43d",
+      "label": "far_maple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T23:02:40+0800",
+      "finished_at": "2026-10-11T23:09:03+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "far_maple__01a12b7c-c3ab-755e-8418-942a9c94a43d",
+      "model_files": [
+        {
+          "path": "far_maple__01a12b7c-c3ab-755e-8418-942a9c94a43d/model.glb",
+          "format": "glb",
+          "bytes": 17434904,
+          "sha256": "fcb455cc291ed3285881e3a6b3abc4302ed470ca47fadf7075090982598beea4",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 17434904,
+            "meshes": 1,
+            "triangles": 34130,
+            "vertices": 74587,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "far_maple__01a12b7c-c3ab-755e-8418-942a9c94a43d/preview.png",
+          "bytes": 121964,
+          "sha256": "d3072b83e1e72eade683503c57bbfe1977f030692c3649189dd95ae8d6461869",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12b82-a5db-7791-a950-37db3547e39c",
+      "label": "courtyard_right_maple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T23:09:05+0800",
+      "finished_at": "2026-10-11T23:14:11+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "courtyard_right_maple__01a12b82-a5db-7791-a950-37db3547e39c",
+      "model_files": [
+        {
+          "path": "courtyard_right_maple__01a12b82-a5db-7791-a950-37db3547e39c/model.glb",
+          "format": "glb",
+          "bytes": 17316048,
+          "sha256": "b09e489d166dcb92d97e7c0f83b43dcd0d318780b75b46c77a1a7791c2f08a3e",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 17316048,
+            "meshes": 1,
+            "triangles": 31361,
+            "vertices": 71271,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "courtyard_right_maple__01a12b82-a5db-7791-a950-37db3547e39c/preview.png",
+          "bytes": 120882,
+          "sha256": "a6ce90c787df82c0ecd7259899bd40d3b7630d7f7f4c00ff50e1e1462c8c3b1f",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12b87-5c9c-77ad-a487-9438f0b947cf",
+      "label": "pavilion_maple",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T23:14:14+0800",
+      "finished_at": "2026-10-11T23:22:05+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "pavilion_maple__01a12b87-5c9c-77ad-a487-9438f0b947cf",
+      "model_files": [
+        {
+          "path": "pavilion_maple__01a12b87-5c9c-77ad-a487-9438f0b947cf/model.glb",
+          "format": "glb",
+          "bytes": 16786780,
+          "sha256": "ba441beea296f9a0dcf180222091163bac11366e8568466858cb4588a00b4eec",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 16786780,
+            "meshes": 1,
+            "triangles": 33737,
+            "vertices": 75252,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "pavilion_maple__01a12b87-5c9c-77ad-a487-9438f0b947cf/preview.png",
+          "bytes": 135607,
+          "sha256": "e42ee6034de45c65f3328c5e83ce652b1ca2b957b947b0468eed7f3b41c31f94",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12ba2-49c0-72dc-94ec-5c2175c5b93f",
+      "label": "forest_backdrop_0",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T23:43:39+0800",
+      "finished_at": "2026-10-11T23:49:18+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "forest_backdrop_0__01a12ba2-49c0-72dc-94ec-5c2175c5b93f",
+      "model_files": [
+        {
+          "path": "forest_backdrop_0__01a12ba2-49c0-72dc-94ec-5c2175c5b93f/model.glb",
+          "format": "glb",
+          "bytes": 17321312,
+          "sha256": "7f94d7fc42a5d75b42eb70bf2a737b1e52929d90a91229ef8e1d6708c0990d6c",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 17321312,
+            "meshes": 1,
+            "triangles": 31563,
+            "vertices": 73408,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "forest_backdrop_0__01a12ba2-49c0-72dc-94ec-5c2175c5b93f/preview.png",
+          "bytes": 109812,
+          "sha256": "1d2d5fb0bf7669bc84cb1dc38dd8d8f237865b2125c88b450b6b50e4dc47107a",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12ba7-80e1-7717-9310-1ca66ab73e74",
+      "label": "forest_backdrop_6",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-11T23:49:20+0800",
+      "finished_at": "2026-10-11T23:54:20+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "forest_backdrop_6__01a12ba7-80e1-7717-9310-1ca66ab73e74",
+      "model_files": [
+        {
+          "path": "forest_backdrop_6__01a12ba7-80e1-7717-9310-1ca66ab73e74/model.glb",
+          "format": "glb",
+          "bytes": 17452148,
+          "sha256": "9303aa2bb1bb509dbacfc251fa87bf4ca531ee61c9cef2032994f01be42d1a89",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 17452148,
+            "meshes": 1,
+            "triangles": 32319,
+            "vertices": 75694,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "forest_backdrop_6__01a12ba7-80e1-7717-9310-1ca66ab73e74/preview.png",
+          "bytes": 105731,
+          "sha256": "d860260869a0bbb8a744a85d7c3b00cd40eabe8f96b2fa4ba002e7bdc67ca0a1",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12c5d-0059-7532-9123-d1e072791351",
+      "label": "meshy_input_curtain_half",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-12T03:07:36+0800",
+      "finished_at": "2026-10-12T03:10:18+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "meshy_input_curtain_half__01a12c5d-0059-7532-9123-d1e072791351",
+      "model_files": [
+        {
+          "path": "meshy_input_curtain_half__01a12c5d-0059-7532-9123-d1e072791351/model.glb",
+          "format": "glb",
+          "bytes": 12071536,
+          "sha256": "ca47c046e13295edfb17db155d34b281ff1a2f23013c29ba02212b695567c0ce",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 12071536,
+            "meshes": 1,
+            "triangles": 48533,
+            "vertices": 65433,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "meshy_input_curtain_half__01a12c5d-0059-7532-9123-d1e072791351/preview.png",
+          "bytes": 103428,
+          "sha256": "e3c6ebbe2a0a839f6ca41decac9470efb472c6a6f29049f9ea4ed455862d973c",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12f90-22b9-7548-b1d5-860fd11e8b26",
+      "label": "A01_urn_pedestal",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-12T18:02:17+0800",
+      "finished_at": "2026-10-12T18:04:20+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A01_urn_pedestal__01a12f90-22b9-7548-b1d5-860fd11e8b26",
+      "model_files": [
+        {
+          "path": "A01_urn_pedestal__01a12f90-22b9-7548-b1d5-860fd11e8b26/model.glb",
+          "format": "glb",
+          "bytes": 10787096,
+          "sha256": "ffb51695f6bc5528a6a2bdae7e9ead4d87105c2572d2458f1cedcd8b4150402d",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 10787096,
+            "meshes": 1,
+            "triangles": 50709,
+            "vertices": 39218,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A01_urn_pedestal__01a12f90-22b9-7548-b1d5-860fd11e8b26/preview.png",
+          "bytes": 82601,
+          "sha256": "bb614cdf9e51b4861928ef4580a943a8caf43439d96e55741d593d3acd7339ef",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a12f92-1cf1-747a-99de-303092b7a204",
+      "label": "A02_alcove_chest",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-12T18:04:27+0800",
+      "finished_at": "2026-10-12T18:06:49+0800",
+      "consumed_credits": 30,
+      "ai_model": "meshy-7.1",
+      "directory": "A02_alcove_chest__01a12f92-1cf1-747a-99de-303092b7a204",
+      "model_files": [
+        {
+          "path": "A02_alcove_chest__01a12f92-1cf1-747a-99de-303092b7a204/model.glb",
+          "format": "glb",
+          "bytes": 8846296,
+          "sha256": "2f3960c4d5b58af5af0f1c96b1dcd3b0029c9c19638e69635cdc9b17749e1e47",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 8846296,
+            "meshes": 1,
+            "triangles": 37690,
+            "vertices": 46204,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "A02_alcove_chest__01a12f92-1cf1-747a-99de-303092b7a204/preview.png",
+          "bytes": 223587,
+          "sha256": "ed1214667da822b6f3858831a0ded9f3062c25a2594b0937bb83f5d2a62d8e6a",
+          "origin": "existing_archive",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T04:58:39+08:00"
+    },
+    {
+      "task_id": "01a13131-4571-73c2-a363-0359248db54f",
+      "label": "image_to_3d",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-13T01:37:57+08:00",
+      "finished_at": "2026-10-13T01:41:31+08:00",
+      "consumed_credits": 30,
+      "ai_model": null,
+      "directory": "image_to_3d__01a13131-4571-73c2-a363-0359248db54f",
+      "model_files": [
+        {
+          "path": "image_to_3d__01a13131-4571-73c2-a363-0359248db54f/model.glb",
+          "format": "glb",
+          "bytes": 21053956,
+          "sha256": "c91268cc66cb2e2ff88d0a94ae32e79f975e4369c82548bb479212d79cf6004e",
+          "origin": "download",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 21053956,
+            "meshes": 1,
+            "triangles": 155553,
+            "vertices": 195182,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "image_to_3d__01a13131-4571-73c2-a363-0359248db54f/preview.png",
+          "bytes": 160739,
+          "sha256": "9aca0d2b92f027cb493f240db54fda1174ade6079f5f8a390b8107682d28c8d7",
+          "origin": "download",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T05:01:18+08:00",
+      "preserved_from_previous_archive": true
+    },
+    {
+      "task_id": "01a13142-183a-75b1-8520-41188bfe647d",
+      "label": "image_to_3d",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-13T01:56:26+08:00",
+      "finished_at": "2026-10-13T01:59:43+08:00",
+      "consumed_credits": 30,
+      "ai_model": null,
+      "directory": "image_to_3d__01a13142-183a-75b1-8520-41188bfe647d",
+      "model_files": [
+        {
+          "path": "image_to_3d__01a13142-183a-75b1-8520-41188bfe647d/model.glb",
+          "format": "glb",
+          "bytes": 16682800,
+          "sha256": "ce0ee28efefd62018527d8a6e0962554410c1f687a56719f45c567d3292cbf94",
+          "origin": "download",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 16682800,
+            "meshes": 1,
+            "triangles": 104138,
+            "vertices": 72289,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "image_to_3d__01a13142-183a-75b1-8520-41188bfe647d/preview.png",
+          "bytes": 160019,
+          "sha256": "fef3b482f7d5dc42076d5e73b5b9cde755fd3880bafe0ff001432565c9e2cd87",
+          "origin": "download",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T05:01:18+08:00",
+      "preserved_from_previous_archive": true
+    },
+    {
+      "task_id": "01a13142-1843-7762-859d-4acd8dab6504",
+      "label": "image_to_3d",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "availability": "local_backup_only",
+      "created_at": "2026-10-13T01:56:27+08:00",
+      "finished_at": "2026-10-13T01:59:54+08:00",
+      "consumed_credits": 30,
+      "ai_model": null,
+      "directory": "image_to_3d__01a13142-1843-7762-859d-4acd8dab6504",
+      "model_files": [
+        {
+          "path": "image_to_3d__01a13142-1843-7762-859d-4acd8dab6504/model.glb",
+          "format": "glb",
+          "bytes": 18504420,
+          "sha256": "8cdf5f5b4a2783a724affcecc641c2fb1405cc69da5706eb1123583cb1bb1064",
+          "origin": "download",
+          "validation": {
+            "valid_glb": true,
+            "version": 2,
+            "file_size_bytes": 18504420,
+            "meshes": 1,
+            "triangles": 103323,
+            "vertices": 91759,
+            "materials": 1,
+            "textures": 3,
+            "external_resources": []
+          }
+        }
+      ],
+      "preview_files": [
+        {
+          "path": "image_to_3d__01a13142-1843-7762-859d-4acd8dab6504/preview.png",
+          "bytes": 104072,
+          "sha256": "d12deccbdd448314567195ea275cd808b9cb6dacf324171beda95e57d0b67534",
+          "origin": "download",
+          "validation": {
+            "valid_image": true,
+            "format": "PNG",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ],
+      "errors": [],
+      "archived_at": "2026-10-17T05:01:18+08:00",
+      "preserved_from_previous_archive": true
+    }
+  ]
+}

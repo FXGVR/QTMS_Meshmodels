@@ -1,0 +1,48 @@
+{
+  "task_id": "01a12ba7-80e1-7717-9310-1ca66ab73e74",
+  "label": "forest_backdrop_6",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-11T23:49:20+0800",
+  "finished_at": "2026-10-11T23:54:20+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "forest_backdrop_6__01a12ba7-80e1-7717-9310-1ca66ab73e74",
+  "model_files": [
+    {
+      "path": "forest_backdrop_6__01a12ba7-80e1-7717-9310-1ca66ab73e74/model.glb",
+      "format": "glb",
+      "bytes": 17452148,
+      "sha256": "9303aa2bb1bb509dbacfc251fa87bf4ca531ee61c9cef2032994f01be42d1a89",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 17452148,
+        "meshes": 1,
+        "triangles": 32319,
+        "vertices": 75694,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "forest_backdrop_6__01a12ba7-80e1-7717-9310-1ca66ab73e74/preview.png",
+      "bytes": 105731,
+      "sha256": "d860260869a0bbb8a744a85d7c3b00cd40eabe8f96b2fa4ba002e7bdc67ca0a1",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}

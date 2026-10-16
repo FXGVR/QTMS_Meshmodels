@@ -1,0 +1,48 @@
+{
+  "task_id": "01a1211a-11ae-7506-abf0-bd42ccaea0bd",
+  "label": "tree",
+  "task_type": "image-to-3d",
+  "status": "SUCCEEDED",
+  "availability": "local_backup_only",
+  "created_at": "2026-10-09T22:38:39+0800",
+  "finished_at": "2026-10-09T22:44:26+0800",
+  "consumed_credits": 30,
+  "ai_model": "meshy-7.1",
+  "directory": "tree__01a1211a-11ae-7506-abf0-bd42ccaea0bd",
+  "model_files": [
+    {
+      "path": "tree__01a1211a-11ae-7506-abf0-bd42ccaea0bd/model.glb",
+      "format": "glb",
+      "bytes": 7821280,
+      "sha256": "81837fa1c26c2929ae21700019f3d9e73b487adefff6082af224e377f3c1163d",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 7821280,
+        "meshes": 1,
+        "triangles": 31569,
+        "vertices": 69913,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "tree__01a1211a-11ae-7506-abf0-bd42ccaea0bd/preview.png",
+      "bytes": 266340,
+      "sha256": "7177859d9d6827588a5dce055e276641b756981ed6b1e87307f1c7b921639dcd",
+      "origin": "existing_archive",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "errors": [],
+  "archived_at": "2026-10-17T04:58:39+08:00"
+}
