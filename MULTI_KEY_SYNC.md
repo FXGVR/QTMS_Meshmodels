@@ -1,6 +1,6 @@
 # 四个 Meshy KEY 同步检查
 
-检查时间：**2026-10-17T05:20:28+08:00**。仓库：`leewensong/QTMS_Meshmodels`。
+检查时间：**2026-10-17T05:20:28+08:00**。仓库：`FXGVR/QTMS_Meshmodels`。
 
 ## 结果
 

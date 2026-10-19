@@ -37,7 +37,7 @@ Meshy 生成的 3D 模型归档，由 **leewensong** 维护。
 
 ```bash
 git lfs install
-git clone https://github.com/leewensong/QTMS_Meshmodels.git
+git clone https://github.com/FXGVR/QTMS_Meshmodels.git
 cd QTMS_Meshmodels
 git lfs pull
 ```
