@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-10-25T03:24:59+08:00",
+  "action": "delete_from_current_library_and_main_branch",
+  "removed_task_count": 16,
+  "removed_model_files": 23,
+  "removed_preview_files": 5,
+  "kept_task_count": 43,
+  "kept_model_files": 43,
+  "kept_preview_files": 43,
+  "categories": {
+    "ballet_dancer_tasks": [
+      "01a16ae0-3f60-7215-97e3-b76213f30405",
+      "01a16afb-0fc3-76a6-8d17-7a11862e89a1",
+      "01a16afd-beff-7484-838f-b192c2d45169",
+      "01a16b0a-aead-7062-b44c-a057e54f1280",
+      "01a16b0b-bae9-7117-bf29-44302009a6a0"
+    ],
+    "no_preview_tasks": [
+      "01a12a81-3edb-7410-9a1f-ede9ac0b05f4",
+      "01a16b00-75d1-72fc-b849-6b1867ae348b",
+      "01a16b02-3131-71e9-a0fa-0ac0c4ebd9f6",
+      "01a16b06-c59b-7219-b32b-9fa36a580696",
+      "01a16b0d-cd54-74ff-870b-0f1eaaf14442",
+      "01a16b0f-b7c3-772d-836e-39fc26069318",
+      "01a16db1-0494-7436-81fe-1e7c9cf37f90",
+      "01a16db1-1c7a-7705-a1b9-3b63afabe112",
+      "01a16db1-34d5-76b9-8b67-f74d0a55c7e7",
+      "01a16db1-4cb3-71cc-8a2b-3972769c4189",
+      "01a16db1-64ca-7228-8b70-83919252c088"
+    ],
+    "failed_or_non_model_tasks": [
+      "01a12a81-3edb-7410-9a1f-ede9ac0b05f4"
+    ]
+  },
+  "removed_tasks": [
+    {
+      "task_id": "01a12a81-3edb-7410-9a1f-ede9ac0b05f4",
+      "label": "curtain_variant_3",
+      "task_type": "image-to-3d",
+      "status": "FAILED",
+      "model_files": 0,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16ae0-3f60-7215-97e3-b76213f30405",
+      "label": "image_to_3d_01a16ae0",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 1
+    },
+    {
+      "task_id": "01a16afb-0fc3-76a6-8d17-7a11862e89a1",
+      "label": "image_to_3d_01a16afb",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 1
+    },
+    {
+      "task_id": "01a16afd-beff-7484-838f-b192c2d45169",
+      "label": "remesh_01a16afd",
+      "task_type": "remesh",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 1
+    },
+    {
+      "task_id": "01a16b00-75d1-72fc-b849-6b1867ae348b",
+      "label": "rig_01a16b00",
+      "task_type": "rig",
+      "status": "SUCCEEDED",
+      "model_files": 5,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16b02-3131-71e9-a0fa-0ac0c4ebd9f6",
+      "label": "animate_01a16b02",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16b06-c59b-7219-b32b-9fa36a580696",
+      "label": "animate_01a16b06",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16b0a-aead-7062-b44c-a057e54f1280",
+      "label": "image_to_3d_01a16b0a",
+      "task_type": "image-to-3d",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 1
+    },
+    {
+      "task_id": "01a16b0b-bae9-7117-bf29-44302009a6a0",
+      "label": "remesh_01a16b0b",
+      "task_type": "remesh",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 1
+    },
+    {
+      "task_id": "01a16b0d-cd54-74ff-870b-0f1eaaf14442",
+      "label": "rig_01a16b0d",
+      "task_type": "rig",
+      "status": "SUCCEEDED",
+      "model_files": 5,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16b0f-b7c3-772d-836e-39fc26069318",
+      "label": "animate_01a16b0f",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16db1-0494-7436-81fe-1e7c9cf37f90",
+      "label": "animate_01a16db1",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16db1-1c7a-7705-a1b9-3b63afabe112",
+      "label": "animate_01a16db1",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16db1-34d5-76b9-8b67-f74d0a55c7e7",
+      "label": "animate_01a16db1",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16db1-4cb3-71cc-8a2b-3972769c4189",
+      "label": "animate_01a16db1",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    },
+    {
+      "task_id": "01a16db1-64ca-7228-8b70-83919252c088",
+      "label": "animate_01a16db1",
+      "task_type": "animate",
+      "status": "SUCCEEDED",
+      "model_files": 1,
+      "preview_files": 0
+    }
+  ],
+  "note": "This removes files from the current main branch and local library. Older Git commits may still contain the removed files unless history is rewritten separately."
+}
