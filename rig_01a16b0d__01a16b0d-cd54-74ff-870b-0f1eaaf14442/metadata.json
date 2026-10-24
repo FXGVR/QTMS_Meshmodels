@@ -1,0 +1,118 @@
+{
+  "task_id": "01a16b0d-cd54-74ff-870b-0f1eaaf14442",
+  "label": "rig_01a16b0d",
+  "task_type": "rig",
+  "status": "SUCCEEDED",
+  "availability": "cloud",
+  "created_at": "2026-10-24T07:17:13+08:00",
+  "finished_at": "2026-10-24T07:18:11+08:00",
+  "consumed_credits": 5,
+  "ai_model": null,
+  "directory": "rig_01a16b0d__01a16b0d-cd54-74ff-870b-0f1eaaf14442",
+  "source_key_files": [
+    "MeshyKEY.txt"
+  ],
+  "available_glb_outputs": [
+    "rigged_character_glb",
+    "basic_animations_walking_glb",
+    "basic_animations_walking_armature_glb",
+    "basic_animations_running_glb",
+    "basic_animations_running_armature_glb"
+  ],
+  "model_files": [
+    {
+      "path": "rig_01a16b0d__01a16b0d-cd54-74ff-870b-0f1eaaf14442/rigged_character_glb.glb",
+      "format": "glb",
+      "bytes": 22512224,
+      "sha256": "813bebb82dc6aad7ec4f082cfa26ed56ef38677343c126037fdede10a2c13599",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 22512224,
+        "meshes": 1,
+        "triangles": 103664,
+        "vertices": 70259,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    },
+    {
+      "path": "rig_01a16b0d__01a16b0d-cd54-74ff-870b-0f1eaaf14442/basic_animations_walking_glb.glb",
+      "format": "glb",
+      "bytes": 22492280,
+      "sha256": "ec34083e2d8d37d11022912f0551484c8ba72b4cbffbfcbd265478f0d5eba9ae",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 22492280,
+        "meshes": 1,
+        "triangles": 103664,
+        "vertices": 70259,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    },
+    {
+      "path": "rig_01a16b0d__01a16b0d-cd54-74ff-870b-0f1eaaf14442/basic_animations_walking_armature_glb.glb",
+      "format": "glb",
+      "bytes": 90236,
+      "sha256": "74a6f455271c27de5c246867c0b48e1d0f98a5577316cb169a68748d4cbc79d9",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 90236,
+        "meshes": 1,
+        "triangles": 288,
+        "vertices": 576,
+        "materials": 0,
+        "textures": 0,
+        "external_resources": []
+      }
+    },
+    {
+      "path": "rig_01a16b0d__01a16b0d-cd54-74ff-870b-0f1eaaf14442/basic_animations_running_glb.glb",
+      "format": "glb",
+      "bytes": 22481664,
+      "sha256": "099c07ffbfad3fe86580af7afb75d7562f59f18ec8ea8cdf98c4ebbc1252652d",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 22481664,
+        "meshes": 1,
+        "triangles": 103664,
+        "vertices": 70259,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    },
+    {
+      "path": "rig_01a16b0d__01a16b0d-cd54-74ff-870b-0f1eaaf14442/basic_animations_running_armature_glb.glb",
+      "format": "glb",
+      "bytes": 79608,
+      "sha256": "e6ef16b98d67cfac7e4335ef594c97ae0adef97286587520ebdb3a336f4f9c81",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 79608,
+        "meshes": 1,
+        "triangles": 288,
+        "vertices": 576,
+        "materials": 0,
+        "textures": 0,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [],
+  "duplicate_models": [],
+  "errors": [],
+  "archived_at": "2026-10-25T02:49:38+08:00"
+}

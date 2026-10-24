@@ -1,0 +1,55 @@
+{
+  "task_id": "01a16a9e-b8c8-73c4-b90e-3ddca1c10018",
+  "label": "text_to_3d_refine_01a16a9e",
+  "task_type": "text-to-3d-refine",
+  "status": "SUCCEEDED",
+  "availability": "cloud",
+  "created_at": "2026-10-24T05:15:49+08:00",
+  "finished_at": "2026-10-24T05:24:17+08:00",
+  "consumed_credits": 10,
+  "ai_model": "standard",
+  "directory": "text_to_3d_refine_01a16a9e__01a16a9e-b8c8-73c4-b90e-3ddca1c10018",
+  "source_key_files": [
+    "MeshyKEY.txt"
+  ],
+  "available_glb_outputs": [
+    "model_glb"
+  ],
+  "model_files": [
+    {
+      "path": "text_to_3d_refine_01a16a9e__01a16a9e-b8c8-73c4-b90e-3ddca1c10018/model_glb.glb",
+      "format": "glb",
+      "bytes": 236166824,
+      "sha256": "f0c0cf816152612568223e8d11506ab1e8fcdf72c6454dcc00f16d0ff750ad4f",
+      "origin": "download",
+      "validation": {
+        "valid_glb": true,
+        "version": 2,
+        "file_size_bytes": 236166824,
+        "meshes": 1,
+        "triangles": 7675480,
+        "vertices": 4185857,
+        "materials": 1,
+        "textures": 3,
+        "external_resources": []
+      }
+    }
+  ],
+  "preview_files": [
+    {
+      "path": "text_to_3d_refine_01a16a9e__01a16a9e-b8c8-73c4-b90e-3ddca1c10018/preview.png",
+      "bytes": 301512,
+      "sha256": "3c5f5d81c83fc3c1c98570a6b7ae215371a8b8dd15a68ab93bf118d1ab88fca2",
+      "origin": "download",
+      "validation": {
+        "valid_image": true,
+        "format": "PNG",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "duplicate_models": [],
+  "errors": [],
+  "archived_at": "2026-10-25T02:46:34+08:00"
+}
