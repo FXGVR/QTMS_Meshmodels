@@ -1,7 +1,7 @@
 {
   "summary": {
     "archived_at": "2026-10-25T03:24:59+08:00",
-    "cloud_tasks": 18,
+    "cloud_tasks": 0,
     "local_tasks": 36,
     "unique_tasks": 43,
     "status_counts": {
@@ -33,12 +33,14 @@
     "generation_requests": 0,
     "preserved_historical_tasks": 5,
     "last_multi_key_sync": {
-      "checked_at": "2026-10-25T02:51:49+08:00",
+      "checked_at": "2026-10-31T04:40:30+08:00",
       "keys_checked": 4,
-      "available_cloud_tasks": 18,
-      "new_tasks_added": 18,
-      "new_model_files_added": 26,
+      "available_cloud_tasks": 0,
+      "new_tasks_added": 0,
+      "new_model_files_added": 0,
+      "new_preview_files_added": 0,
       "deduplicated_model_outputs": 0,
+      "preserved_model_files": 43,
       "report": "sync_reports/latest_library_sync.json"
     },
     "model_tasks": 43,
@@ -48,7 +50,8 @@
     "cleanup_report": "sync_reports/latest_cleanup.json",
     "repository": "FXGVR/QTMS_Meshmodels",
     "model_storage": "git-lfs",
-    "schema_version": 1
+    "schema_version": 1,
+    "last_checked_at": "2026-10-31T04:40:30+08:00"
   },
   "tasks": [
     {

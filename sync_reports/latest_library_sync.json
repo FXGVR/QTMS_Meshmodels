@@ -1,90 +1,140 @@
 {
-  "checked_at": "2026-10-25T02:51:49+08:00",
-  "key_files": [
+  "schema_version": 1,
+  "checked_at": "2026-10-31T04:40:30+08:00",
+  "repository": "FXGVR/QTMS_Meshmodels",
+  "result": "no_new_downloadable_cloud_tasks",
+  "key_files_checked": [
     "MeshyKEY001.txt",
     "MeshyKEY.txt",
     "FXGMeshyKEY_03.txt",
     "FXGMeshyKEY_04.txt"
   ],
-  "endpoint_counts": {
-    "MeshyKEY001.txt": {
-      "/v2/text-to-3d": 0,
-      "/v1/uv-unwrap": 0,
-      "/v1/remesh": 0,
-      "/v1/image-to-3d": 0,
-      "/v1/convert": 0,
-      "/v1/resize": 0,
-      "/v1/multi-image-to-3d": 0,
-      "/v1/retexture": 0,
-      "/v1/animations": 0,
-      "/v1/print/multi-color": 0,
-      "/v1/rigging": 0,
-      "/v1/print/split": 0,
-      "/v1/print/analyze": 0,
-      "/v1/text-to-image": 0,
-      "/v1/image-to-image": 0,
-      "/v1/print/repair": 0
-    },
-    "MeshyKEY.txt": {
-      "/v1/resize": 0,
-      "/v1/multi-image-to-3d": 0,
-      "/v1/convert": 0,
-      "/v1/uv-unwrap": 0,
-      "/v1/retexture": 0,
-      "/v2/text-to-3d": 2,
-      "/v1/remesh": 2,
-      "/v1/image-to-3d": 3,
-      "/v1/image-to-image": 0,
-      "/v1/print/analyze": 0,
-      "/v1/text-to-image": 0,
-      "/v1/print/multi-color": 0,
-      "/v1/print/repair": 0,
-      "/v1/print/split": 0,
-      "/v1/rigging": 2,
-      "/v1/animations": 8
-    },
-    "FXGMeshyKEY_03.txt": {
-      "/v1/remesh": 0,
-      "/v1/convert": 0,
-      "/v2/text-to-3d": 0,
-      "/v1/retexture": 0,
-      "/v1/resize": 0,
-      "/v1/uv-unwrap": 0,
-      "/v1/multi-image-to-3d": 0,
-      "/v1/image-to-3d": 0,
-      "/v1/print/split": 0,
-      "/v1/image-to-image": 0,
-      "/v1/text-to-image": 0,
-      "/v1/rigging": 0,
-      "/v1/animations": 0,
-      "/v1/print/multi-color": 0,
-      "/v1/print/analyze": 0,
-      "/v1/print/repair": 0
-    },
-    "FXGMeshyKEY_04.txt": {
-      "/v1/convert": 0,
-      "/v1/uv-unwrap": 0,
-      "/v1/resize": 0,
-      "/v1/remesh": 0,
-      "/v1/image-to-3d": 0,
-      "/v1/retexture": 0,
-      "/v1/multi-image-to-3d": 0,
-      "/v2/text-to-3d": 1,
-      "/v1/rigging": 0,
-      "/v1/text-to-image": 0,
-      "/v1/print/repair": 0,
-      "/v1/animations": 0,
-      "/v1/print/analyze": 0,
-      "/v1/print/multi-color": 0,
-      "/v1/print/split": 0,
-      "/v1/image-to-image": 0
-    }
+  "query_counts": {
+    "balance_queries": 4,
+    "task_list_queries": 64
   },
-  "cloud_tasks": 18,
-  "new_tasks": 18,
-  "new_model_files": 26,
-  "new_preview_files": 8,
-  "deduplicated_model_outputs": 0,
+  "keys": [
+    {
+      "key_file_label": "MeshyKEY001.txt",
+      "authentication": "ok",
+      "available_tasks": 0,
+      "endpoint_counts": {
+        "/v2/text-to-3d": 0,
+        "/v1/multi-image-to-3d": 0,
+        "/v1/retexture": 0,
+        "/v1/image-to-3d": 0,
+        "/v1/remesh": 0,
+        "/v1/resize": 0,
+        "/v1/uv-unwrap": 0,
+        "/v1/convert": 0,
+        "/v1/animations": 0,
+        "/v1/text-to-image": 0,
+        "/v1/rigging": 0,
+        "/v1/image-to-image": 0,
+        "/v1/print/analyze": 0,
+        "/v1/print/multi-color": 0,
+        "/v1/print/repair": 0,
+        "/v1/print/split": 0
+      }
+    },
+    {
+      "key_file_label": "MeshyKEY.txt",
+      "authentication": "ok",
+      "available_tasks": 0,
+      "endpoint_counts": {
+        "/v1/multi-image-to-3d": 0,
+        "/v1/retexture": 0,
+        "/v1/image-to-3d": 0,
+        "/v2/text-to-3d": 0,
+        "/v1/uv-unwrap": 0,
+        "/v1/convert": 0,
+        "/v1/resize": 0,
+        "/v1/remesh": 0,
+        "/v1/rigging": 0,
+        "/v1/image-to-image": 0,
+        "/v1/text-to-image": 0,
+        "/v1/animations": 0,
+        "/v1/print/analyze": 0,
+        "/v1/print/repair": 0,
+        "/v1/print/multi-color": 0,
+        "/v1/print/split": 0
+      }
+    },
+    {
+      "key_file_label": "FXGMeshyKEY_03.txt",
+      "authentication": "ok",
+      "available_tasks": 0,
+      "endpoint_counts": {
+        "/v2/text-to-3d": 0,
+        "/v1/multi-image-to-3d": 0,
+        "/v1/retexture": 0,
+        "/v1/image-to-3d": 0,
+        "/v1/uv-unwrap": 0,
+        "/v1/resize": 0,
+        "/v1/remesh": 0,
+        "/v1/convert": 0,
+        "/v1/image-to-image": 0,
+        "/v1/text-to-image": 0,
+        "/v1/rigging": 0,
+        "/v1/animations": 0,
+        "/v1/print/split": 0,
+        "/v1/print/analyze": 0,
+        "/v1/print/multi-color": 0,
+        "/v1/print/repair": 0
+      }
+    },
+    {
+      "key_file_label": "FXGMeshyKEY_04.txt",
+      "authentication": "ok",
+      "available_tasks": 0,
+      "endpoint_counts": {
+        "/v1/retexture": 0,
+        "/v1/multi-image-to-3d": 0,
+        "/v2/text-to-3d": 0,
+        "/v1/image-to-3d": 0,
+        "/v1/resize": 0,
+        "/v1/uv-unwrap": 0,
+        "/v1/remesh": 0,
+        "/v1/convert": 0,
+        "/v1/image-to-image": 0,
+        "/v1/animations": 0,
+        "/v1/rigging": 0,
+        "/v1/text-to-image": 0,
+        "/v1/print/analyze": 0,
+        "/v1/print/multi-color": 0,
+        "/v1/print/repair": 0,
+        "/v1/print/split": 0
+      }
+    }
+  ],
+  "current_cloud_tasks": 0,
+  "new_tasks_added": 0,
+  "new_model_files_added": 0,
+  "new_preview_files_added": 0,
+  "duplicate_model_outputs": 0,
+  "retained_tasks": 43,
+  "retained_glb_files": 43,
+  "retained_preview_files": 43,
+  "historically_removed_task_ids_excluded": 16,
+  "retention_rules": [
+    "Never re-import the 16 task IDs previously removed by the user.",
+    "Require SUCCEEDED, a primary GLB model and a decodable preview.",
+    "Exclude ballet-related tasks and standalone rig or animation outputs.",
+    "Keep previously archived files when cloud lists are empty.",
+    "Deduplicate model bytes using SHA-256."
+  ],
+  "validation": {
+    "glb_structure": "passed",
+    "model_sha256": "passed",
+    "preview_decoding": "passed",
+    "preview_sha256": "passed",
+    "duplicate_model_hashes": 0
+  },
   "errors": [],
-  "generation_requests": 0
+  "generation_requests": 0,
+  "limitations": [
+    "Current empty task lists do not establish that the keys never generated models.",
+    "Past cloud assets not accessible through current responses cannot be recovered by this check."
+  ],
+  "privacy": "No API key values, key suffixes, account balances, authorization headers, signed download URLs, or local absolute paths included."
 }

@@ -27,6 +27,10 @@ cd QTMS_Meshmodels
 git lfs pull
 ```
 
+## 最近检查
+
+2026-10-31T04:40:30+08:00 已检查 4 个 Meshy KEY，当前任务列表均为空，本次新增 0 个模型。现有 **43 个 GLB 和 43 张预览图**已重新校验并保留；此前删除的任务不再导入。详见 `MULTI_KEY_SYNC.md` 与 `sync_policy.json`。
+
 ## 最近清理
 
 已移除芭蕾舞演员相关模型、没有预览图的 Rig/Animation 输出，以及失败任务记录。旧 Git 提交历史可能仍保留历史文件。

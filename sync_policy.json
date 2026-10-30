@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "primary_model_format": "glb",
+  "require_success": true,
+  "require_preview": true,
+  "exclude_ballet_related": true,
+  "exclude_standalone_rigging_and_animation": true,
+  "previously_removed_task_ids": [
+    "01a12a81-3edb-7410-9a1f-ede9ac0b05f4",
+    "01a16ae0-3f60-7215-97e3-b76213f30405",
+    "01a16afb-0fc3-76a6-8d17-7a11862e89a1",
+    "01a16afd-beff-7484-838f-b192c2d45169",
+    "01a16b00-75d1-72fc-b849-6b1867ae348b",
+    "01a16b02-3131-71e9-a0fa-0ac0c4ebd9f6",
+    "01a16b06-c59b-7219-b32b-9fa36a580696",
+    "01a16b0a-aead-7062-b44c-a057e54f1280",
+    "01a16b0b-bae9-7117-bf29-44302009a6a0",
+    "01a16b0d-cd54-74ff-870b-0f1eaaf14442",
+    "01a16b0f-b7c3-772d-836e-39fc26069318",
+    "01a16db1-0494-7436-81fe-1e7c9cf37f90",
+    "01a16db1-1c7a-7705-a1b9-3b63afabe112",
+    "01a16db1-34d5-76b9-8b67-f74d0a55c7e7",
+    "01a16db1-4cb3-71cc-8a2b-3972769c4189",
+    "01a16db1-64ca-7228-8b70-83919252c088"
+  ],
+  "deduplication": "sha256",
+  "preserve_local_assets_when_cloud_lists_empty": true
+}
